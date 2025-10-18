@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="$ZOMBIE - The undead meme coin that refuses to die. Brains. Blockchain. Chaos." />
+    <meta name="theme-color" content="#00FF88" />
+
+    <meta property="og:title" content="$ZOMBIE - The Dead Don’t Rug" />
+    <meta property="og:description" content="The apocalypse is on-chain. $ZOMBIE is the infection you can’t sell." />
+    <meta property="og:image" content="/assets/zombie-logo.jpg" />
+
+    <link rel="icon" href="/zombie-logo.jpeg" />
+    <title>$ZOMBIE - The Dead Don’t Rug</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+      }
+      .font-zombie {
+        font-family: 'Nosifer', cursive;
+      }
+      .glow {
+        text-shadow: 0 0 10px #00ff99, 0 0 30px #00ff99, 0 0 60px #00ff99;
+      }
+      .neon-border {
+        box-shadow: 0 0 15px #00ff99, inset 0 0 10px #00ff99;
+      }
+      .pulse {
+        animation: pulseGlow 2s infinite;
+      }
+      @keyframes pulseGlow {
+        0%, 100% { box-shadow: 0 0 10px #00ff99; }
+        50% { box-shadow: 0 0 25px #00ff99, 0 0 40px #00ff99; }
+      }
+    </style>
+  </head>
+
+  <body class="bg-gradient-to-b from-black via-green-950 to-black text-white overflow-x-hidden">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 w-full z-50 backdrop-blur-lg bg-black/40 py-4 px-6 border-b border-green-700/50">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+          <img src="/zombie-logo.jpeg" class="w-10 h-10 rounded-full border-2 border-green-500" />
+          <span class="text-2xl font-zombie text-green-400 tracking-wider">$ZOMBIE</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
+          <a href="#home" class="hover:text-green-400 transition">Home</a>
+          <a href="#about" class="hover:text-green-400 transition">About</a>
+          <a href="#infection" class="hover:text-green-400 transition">Infection</a>
+          <a href="https://t.me/zomblecoin11111" target="_blank" class="ml-4 px-5 py-2 bg-green-500 hover:bg-green-600 rounded-full text-black font-bold transition pulse">Join Telegram</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="relative h-screen flex items-center justify-center text-center pt-16">
+      <div class="absolute inset-0 bg-cover bg-center brightness-[0.3]" style="background-image:url('/assets/zombie-logo.jpg');"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/80 to-green-950/90"></div>
+
+      <div class="relative z-10">
+        <h1 class="font-zombie text-6xl md:text-7xl text-green-400 glow mb-6">$ZOMBIE RISES</h1>
+        <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10">The infection spreads on-chain. No mercy. No roadmap. Just undead conviction.</p>
+        <button onclick="document.getElementById('buyModal').classList.remove('hidden')" class="bg-green-500 hover:bg-green-600 text-black font-bold px-10 py-3 rounded-full text-lg uppercase pulse">Buy $ZOMBIE</button>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-28 bg-gradient-to-br from-black to-green-950">
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div class="relative group">
+          <img src="/zombie-logo.jpeg" alt="$ZOMBIE" class="rounded-2xl neon-border transition group-hover:scale-105 duration-300" />
+          <div class="absolute inset-0 bg-green-500/10 blur-xl rounded-2xl opacity-0 group-hover:opacity-100 transition"></div>
+        </div>
+        <div>
+          <h2 class="text-4xl md:text-5xl font-zombie text-green-400 mb-6">Brains. Blockchain. Resurrection. 🧠</h2>
+          <p class="text-gray-300 mb-5 leading-relaxed">$ZOMBIE crawled out of the blockchain graveyard to infect the memecoin meta. Built for chaos, powered by memes, and fueled by FOMO. No whitepaper. No promises. Just eternal undead volatility.</p>
+          <div class="flex space-x-4 mt-6">
+            <a href="https://t.me/zomblecoin11111" target="_blank" class="bg-green-500 hover:bg-green-600 text-black px-6 py-3 rounded-full font-bold transition">Telegram</a>
+            <a href="https://x.com/ballerbyb_?s=21" target="_blank" class="border border-green-500 hover:bg-green-500 hover:text-black text-green-400 px-6 py-3 rounded-full font-bold transition">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFECTION GUIDE -->
+    <section id="infection" class="py-28 bg-black text-center">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-5xl font-zombie text-green-400 mb-6">How to Join the Infection 🧟</h2>
+        <p class="text-gray-300 mb-12 text-lg">Even the dead can buy it. Here's how.</p>
+        <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-10">
+          <div class="bg-green-900/10 border border-green-700 neon-border rounded-2xl p-8 hover:scale-105 transition">
+            <h3 class="text-3xl font-zombie text-green-400 mb-2">1</h3>
+            <p class="text-gray-300">Install a wallet like MetaMask or Phantom.</p>
+          </div>
+          <div class="bg-green-900/10 border border-green-700 neon-border rounded-2xl p-8 hover:scale-105 transition">
+            <h3 class="text-3xl font-zombie text-green-400 mb-2">2</h3>
+            <p class="text-gray-300">Load up on ETH — blood for the chain.</p>
+          </div>
+          <div class="bg-green-900/10 border border-green-700 neon-border rounded-2xl p-8 hover:scale-105 transition">
+            <h3 class="text-3xl font-zombie text-green-400 mb-2">3</h3>
+            <p class="text-gray-300">Go to <a href="https://pump.fun/coin/Bquax6c5t4mZEZwwzqGHujUc5k3KCG1m5j9ZEmfwpump" target="_blank" class="underline text-green-400">Pump.fun</a> and swap for $ZOMBIE.</p>
+          </div>
+          <div class="bg-green-900/10 border border-green-700 neon-border rounded-2xl p-8 hover:scale-105 transition">
+            <h3 class="text-3xl font-zombie text-green-400 mb-2">4</h3>
+            <p class="text-gray-300">Hold tight. Infect others. Rise again.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEGEND SECTION -->
+    <section class="py-28 bg-gradient-to-br from-green-950 via-black to-green-950 text-center text-green-400">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl md:text-5xl font-zombie mb-6">The Legend of $ZOMBIE</h2>
+        <p class="text-lg text-gray-300 mb-4">They said it was dead. They said the memes were over.</p>
+        <p class="text-lg text-gray-300 mb-4">Then the blockchain trembled — and $ZOMBIE rose again.</p>
+        <p class="text-white italic mt-8">This isn’t finance.<br>This is reanimation.<br>Welcome to the afterpump.</p>
+      </div>
+    </section>
+
+    <!-- BUY MODAL -->
+    <div id="buyModal" class="hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center">
+      <div class="bg-green-950 border border-green-500 neon-border rounded-2xl p-8 max-w-md text-center relative">
+        <h3 class="text-3xl font-zombie text-green-400 mb-4">BUY $ZOMBIE</h3>
+        <p class="text-gray-300 mb-6">The apocalypse starts here. Proceed to Pump.fun and embrace the infection.</p>
+        <a href="https://pump.fun/coin/Bquax6c5t4mZEZwwzqGHujUc5k3KCG1m5j9ZEmfwpump" target="_blank" class="bg-green-500 hover:bg-green-600 text-black font-bold px-8 py-3 rounded-full inline-block transition">Buy on Pump.fun</a>
+        <button onclick="document.getElementById('buyModal').classList.add('hidden')" class="absolute top-4 right-4 text-green-400 hover:text-red-500 text-xl">✕</button>
+      </div>
+    </div>
+
+  </body>
+</html>
